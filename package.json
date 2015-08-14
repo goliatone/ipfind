@@ -1,0 +1,16 @@
+{
+  "name": "ipfind",
+  "version": "1.0.0",
+  "description": "Find IP from MAC",
+  "main": "index.js",
+  "dependencies": {
+    "arpscan": "^0.1.0",
+    "commander": "^2.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}
