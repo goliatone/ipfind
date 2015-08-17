@@ -17,7 +17,10 @@ program
     .parse(process.argv);
 
 var MAC = program.macAddress;
-if(!MAC) process.exit(0);
+
+if(!MAC) {
+    process.exit(0);
+}
 
 MAC = MAC.toUpperCase();
 
